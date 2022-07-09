@@ -1,12 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
 
+.heading {
+  text-align: center;
 
-heading {text-align: center;}
+}
 
-body {
-    font-family: "Times New Roman", Times, serif;
+.side {
+  background-color: steelblue;
+}
+
+.Middle.Column {
     background-color: seashell;
   }
 
-h4 {
-    border: 2px solid tomato
+.Top.navbar {
+  background-color: magenta;
+  border: 2px solid tomato;
+  /*This border works*/
 }
