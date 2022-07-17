@@ -3,21 +3,45 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+  margin: 20px;
+}
+
+/* Styles for the Heading*/
 .heading {
   text-align: center;
+  background-color: 	#D8D8D8;
+  padding: 20px;
+}
+
+#Logo{
+  width: 120px;
+  float: left;
 
 }
 
-.side {
+.navbar {
+  padding: 10px;
+}
+
+/*Columns*/
+.column {
+  float: left;
+  padding: 10px;
   background-color: steelblue;
+  border: 2px solid tomato;
 }
 
-.Middle.Column {
-    background-color: seashell;
-  }
+.column.side {
+  width: 25%
+}
 
-.Top.navbar {
-  background-color: magenta;
+.column.middle {
+  width: 50%;
+}
+
+.navbar {
+  background-color: 	#888888;
   border: 2px solid tomato;
-  /*This border works*/
+  
 }
