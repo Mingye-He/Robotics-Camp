@@ -2,3 +2,10 @@
     background-color: teal; 
     text-align: center; 
 }
+
+.navbar {
+    padding: 10px;
+    background-color: 	#888888;
+    border: 2px solid teal;
+    
+  }

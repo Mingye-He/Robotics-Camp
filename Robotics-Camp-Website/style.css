@@ -22,6 +22,9 @@ body {
 
 .navbar {
   padding: 10px;
+  background-color: 	#888888;
+  border: 2px solid teal;
+  
 }
 
 /*Columns*/
@@ -40,8 +43,8 @@ body {
   width: 50%;
 }
 
-.navbar {
-  background-color: 	#888888;
-  border: 2px solid tomato;
-  
+
+.boxed {
+  background-color: teal; 
+  text-align: center; 
 }
