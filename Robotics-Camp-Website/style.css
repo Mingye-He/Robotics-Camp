@@ -3,6 +3,12 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+@media screen and (max-width: 600px) {
+.column.side, .column.middle {
+  width: 100%;
+  }
+}
+
 body {
   margin: 20px;
 }
@@ -17,14 +23,23 @@ body {
 #Logo{
   width: 120px;
   float: left;
-
 }
 
+/* Navigation Bar*/
 .navbar {
   padding: 10px;
   background-color: 	#888888;
   border: 2px solid teal;
-  
+}
+
+.navbar a{
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 /*Columns*/
@@ -37,13 +52,18 @@ body {
 
 .column.side {
   width: 25%
+
 }
 
 .column.middle {
-  width: 50%;
+  width: 75%;
+  height: 70%;
 }
 
-
+.footer {
+ padding: 10px;
+ 
+}
 .boxed {
   background-color: teal; 
   text-align: center; 
