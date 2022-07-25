@@ -15,16 +15,21 @@ body {
 
 /* Styles for the Heading*/
 .heading {
+  font-size: 30px;
   color: #ffffff;
   text-align: center;
   background-color: #0c2340;
-  padding: 50px;
+  padding: 100px;
+  height: 350px;
 }
 
-.Logo{
-  width: 350px;
+.Logo1{
+  width: 400px;
   float: left;
 }
+
+
+
 
 /* Navigation Bar*/
 .navbar {
@@ -33,6 +38,7 @@ body {
 }
 
 .navbar a{
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -46,38 +52,74 @@ body {
   text-align: center;
 }
 
-/*Columns*/
+/*Columns of the Main Page*/
 .column {
   float: left;
-  padding: 30px;
   background-color: #ffffff;
+  padding: 10px;
 }
+
 
 .column1{
-  background-color: aqua;
-}
-
-.main.colum{
-  width: 100%;
-  height: 70%;
-}
-
-.column.footer {
-  width: 100%;
+  float: left;
+  margin: 2%;
+  width: 29.33%;
   background-color: #b5b7b8;
 }
-.boxed {
-  background-color: teal; 
-  text-align: center; 
+
+.column2{
+  float: left;
+  padding: 10px;
+  margin: 2%;
+  width: 29.333%;
+  background-color: #b5b7b8;
 }
 
-/* Projects Page*/
-
-.column.side {
-  background-color: aqua;
+.column3{
   float: left;
+  padding: 10px;
+  margin: 2%;
+  width: 29.33%;
+  background-color: #b5b7b8;
+}
+
+.Maincolumn{
+  padding:20px;
+  width: 100%;
+  height: 35%;
+}
+
+
+/* Projects  and Notes Page Styling*/
+.column.side {
+  padding: 20px;
+  background-color: greenyellow;
+  float: left;
+  width: 25%;
 }
 
 .column.middle{
-  width: 70%;
+  padding: 20px;
+  width: 75%;
+}
+
+/* footer Styling*/
+
+.column.footer {
+  color: #ffffff;
+  float: left;
+  width: 100%;
+  background-color: #0c2340;
+}
+
+.Logo2{
+  float: left;
+  margin: 20px;
+  width: 200px;
+}
+
+/* Schedule Page Styling*/
+.boxed {
+  background-color: teal; 
+  text-align: center; 
 }
