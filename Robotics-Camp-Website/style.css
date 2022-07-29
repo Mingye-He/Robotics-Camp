@@ -24,7 +24,8 @@ body {
 }
 
 .Logo1{
-  width: 400px;
+  position: relative; top: -130px;
+  width: 500pgx;
   float: left;
 }
 
@@ -91,10 +92,9 @@ body {
 
 
 /* Projects  and Notes Page Styling*/
-.column.side {
+.side {
   padding: 20px;
-  background-color: greenyellow;
-  float: left;
+  background-color: gray;
   width: 25%;
 }
 
